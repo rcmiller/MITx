@@ -1,0 +1,37 @@
+h1 {
+    /*font-size: 200pt; */
+}
+
+.happy {
+    background-color: yellow;
+}
+
+.calculator {
+    position: relative;
+}
+
+#calc1 button {
+    font-size: 20pt;
+}
+
+.calculator div {
+    background-color: #e4edf7;
+    width : 400px;
+    height : 100px;
+    border-radius: 10px;
+    border-width : 1px;
+    border-color : black;
+    border-style : solid;
+    /*display: inline-block;*/
+}
+
+.calculator button {
+    /*position: absolute;*/
+    /*left: 10px;*/
+    /*top: 10px;*/
+    /*z-index: -1;*/
+}
+
+.calculator input[type="text"] {
+    /*display: block;*/
+}
