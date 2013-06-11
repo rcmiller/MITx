@@ -21,6 +21,7 @@
                 padding-right: 50px;
                 text-align: right;
                 border: 1px solid #B0B596;
+                border-radius: 8px;
             }
             
             button {
@@ -31,6 +32,21 @@
                 height: 54px;
                 margin-right: 4px;
                 margin-bottom: 8px;
+                border-radius: 8px;
+            }
+            
+            .doublewidth {
+                width: 193px;
+            }
+            .doubleheight {
+                height: 116px;
+                padding-top: 54px;
+            }
+            .row {
+                height: 62px;
+            }
+            .row button {
+                vertical-align: top;
             }
         </style>
     </head>
@@ -42,22 +58,22 @@
             <div>
             <button>MC</button>
             <button>M+</button>
-            <button>M-</button>
+            <button>M&ndash;</button>
             <button>MR</button>
             </div>
             
             <div>
             <button>C</button>
-            <button>+/-</button>
-            <button>/</button>
-            <button>x</button>
+            <button>&plusmn;</button>
+            <button>&divide;</button>
+            <button>&times;</button>
             </div>
             
             <div>
             <button>7</button>
             <button>8</button>
             <button>9</button>
-            <button>-</button>
+            <button>&ndash;</button>
             </div>
             
             <div>
@@ -67,15 +83,15 @@
             <button>+</button>
             </div>
             
-            <div>
+            <div class="row">
             <button>1</button>
             <button>2</button>
             <button>3</button>
-            <button>=</button>
+            <button class="doubleheight">=</button>
             </div>
             
             <div>
-            <button>0</button>
+            <button class="doublewidth">0</button>
             <button>.</button>
             </div>
         </div>
