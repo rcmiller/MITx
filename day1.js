@@ -1,3 +1,5 @@
+// from madeye2
+// from brackets
 function calculate(text) {
     // return text;
 

@@ -10,6 +10,19 @@ var Inspector = function($) {
   // The root element of the inspector.
   var root = null;
 
+  var template = ""
+    + "<div class='tray'>"
+    + "  <textarea class='text-editor'></textarea>"
+    + "  <div class='property-editor'>"
+    + "    <div class='node-lookup'>"
+    + "      <input class='selector' /><input class='nth' />"
+    + "    </div>"
+    + "    <div class='property-list'>"
+    + "    </div>" 
+    + "  </div>" 
+    + "</div>" 
+    + "<div class='handle'></div>";
+
   /*
    * Construct the UI
    */
