@@ -1,0 +1,10 @@
+.chart { border: 1px solid gray; }
+
+.chart rect { 
+  fill: rgb(220,255,255); 
+  stroke: gray;
+}
+
+.chart text {
+  font: 10px sans-serif;
+}
